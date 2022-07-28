@@ -1,0 +1,113 @@
+:root{
+    --primary:#2b2922;
+    --secondary:#f1f0ef;
+    --third:#7a6e2f;
+    --forth:#9a9890;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  body{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--primary);
+    overflow-y: hidden;
+    font-family: "Red Rose";
+  }
+  
+
+  .container{
+    margin: 2rem 2.5rem;
+    height: 45vh;
+  }
+  /* ------------------------------ */
+  /* ---------- NAVBAR ------------ */
+    .navbar{
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      align-items: center;
+      margin-bottom: 51px;
+    }
+
+    .navbar>div>img{
+      height: 40px;
+    }
+  
+    .list{
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      margin-left: 321px;
+    }
+  
+    .list-item{
+      margin: 0px 25px;
+      color: var(--forth);
+      cursor: pointer;
+      font-weight: 200;
+      font-size: 16px;
+    }
+
+    .list-item:hover{
+        font-weight: 400;
+        color: var(--secondary);
+    }
+  
+    .button-small{
+      background-color: var(--primary);
+      color: var(--third);
+      padding: 11px 22px;
+      border: 2px solid var(--third);
+      border-radius: 10px;
+      
+      font-weight: 400;
+      font-size: large;
+      margin: 0px 24px;
+      cursor: pointer;
+    }
+     
+
+
+     .hero{
+        display: flex;
+        justify-content: space-between;
+     }
+
+     .hero-heading{
+        display: flex;
+    flex-direction: column;
+    font-size: 72px;
+    color: var(--secondary);
+    font-family: sans-serif;
+    justify-content: center;
+    width: 38rem;
+    margin-right: -3rem;
+     }
+
+     .body-para{
+      color: var(--forth);
+      font-size: 19.5px;
+      float: left;
+      display: flex;
+      flex-direction: column;
+      width: 27rem;
+      font-weight: 100;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      right: 24px;
+     }
+
+
+
+
+    footer img{
+        position: relative;
+        width: 100%;
+        height: 45vh;
+      }
