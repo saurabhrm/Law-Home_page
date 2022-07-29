@@ -14,6 +14,7 @@
 - display property 
 
 >### Time Required to Complete This Project
-- 4hr 
+- 2hr 
 
->### Live Link of this Project
+---
+>### [Live Project Link Click Here ](https://project-3-justice.netlify.app)
